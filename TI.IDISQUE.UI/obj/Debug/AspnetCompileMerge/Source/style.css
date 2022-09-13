@@ -1,0 +1,382 @@
+/* ======== Global ======== */
+:root {
+    /* --dark-blue: #363f5f;
+  --light-green: #3dd705; */
+    --green-fosco: #50a773;
+    --red: #e92929;
+    --yellor-fosco: #f3d751;
+    --orange: #ff922d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 93.75%; /* 15px */
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f5f5f5;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container {
+    width: min(90vw, 800px);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* =============== Header ================= */
+header {
+    background: var(--orange);
+    padding: 6rem 0 5rem;
+    text-align: center;
+}
+
+.logo {
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+.food-savory {
+    margin-top: -3rem;
+    border-bottom: 3px solid #adacac;
+    margin-bottom: 100px;
+}
+
+.savory {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+#food-beer {
+    margin-top: -3rem;
+    border-bottom: 3px solid #adacac;
+    margin-bottom: 100px;
+}
+
+#beer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+#food-pizzas {
+    margin-top: -3rem;
+    border-bottom: 3px solid #adacac;
+    margin-bottom: 100px;
+}
+
+#pizzas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+/* ======== Cards ======== */
+.card {
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    /* padding: 1.5rem 2rem; */
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark-blue);
+    height: 110px;
+}
+
+.card-content {
+    padding: 3px;
+    display: contents;
+}
+
+.title {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2px 40px;
+    /* word-break: normal; */
+}
+
+.price {
+    font-size: 20px;
+    color: var(--red);
+}
+
+/* ======== Footer ======== */
+footer {
+    padding: 1rem 0 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--orange);
+    color: white;
+    text-align: center;
+}
+
+.foot-car {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    font-size: 20px;
+}
+
+.size {
+    font-size: 35px;
+}
+
+.circle {
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    color: #ff922d;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.car-number {
+    font-size: smaller;
+}
+
+.car {
+    font-size: 35px;
+}
+
+.maker {
+    font-size: 35px;
+}
+
+.home {
+    font-size: 35px;
+}
+
+@media (min-width: 800px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .card {
+        display: flex;
+        background: #fff;
+        /* justify-content: space-between; */
+        /* padding: 1.5rem 2rem; */
+        justify-content: center;
+        border-radius: 0.25rem;
+        margin-bottom: 2rem;
+        color: var(--dark-blue);
+        height: 240px;
+    }
+
+    .food-savory {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .savory {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    header {
+        background: var(--orange);
+        padding: 6rem 0 10rem;
+        text-align: center;
+    }
+
+
+
+    .logo {
+        border-radius: 50%;
+        max-width: 400px;
+    }
+
+    .img-content {
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: 30%;
+    }
+}
+
+/* ================== navbar =================== */
+.topnav {
+    display: inline-block;
+    justify-content: center;
+    overflow: hidden;
+    background-color: var(--orange);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999999999999;
+    padding: 0px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+    .topnav a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 14px 14px;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+        .topnav a:hover {
+            border-bottom: 3px solid #fff;
+        }
+
+        .topnav a.active {
+            background-color: var(--orange);
+            color: white;
+        }
+
+    .topnav .icon {
+        display: none;
+    }
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.info {
+    display: flex;
+    padding-top: 14px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.left-timer {
+    padding-left: 10px;
+}
+
+.name-logo {
+    color: #fff;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 226px;
+}
+
+#btnBusca {
+    float: left;
+    cursor: pointer;
+}
+
+#divBusca img {
+    float: left;
+}
+
+#divBusca {
+    background: #f5f5f5;
+    /* border:solid 10px rgba(47, 79, 79, 0.8); */
+    display: flex;
+    align-content: space-between;
+    border-radius: 10px;
+    height: 37px;
+    width: 100%;
+    flex-direction: column;
+}
+
+/* ============== IMG =============== */
+
+.img-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+/* The slow way */
+.make-it-slow {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+    /* Transition to a bigger shadow on hover */
+    .make-it-slow:hover {
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+/* The fast way */
+.make-it-fast {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+    /* Pre-render the bigger shadow, but hide it */
+    .make-it-fast::after {
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    /* Transition to showing the bigger shadow on hover */
+    .make-it-fast:hover::after {
+        opacity: 1;
+    }
+
+.button {
+    border-radius: 40px;
+    background-color: #4CAF50; /* Green */
+    border: 3px solid #4CAF50;
+    color: rgb(21, 255, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: #4CAF50;
+}
+
+    .button1:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+.img-content {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 30%;
+}

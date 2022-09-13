@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\tiaut\Desktop\PUBLISH\IDISQUE</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>08/10/2021 15:45:44</publishTime>
+    </File>
+    <File Include="assets/coxinha-4161592_640.jpg">
+      <publishTime>08/10/2021 12:10:22</publishTime>
+    </File>
+    <File Include="assets/drink-462776_640.jpg">
+      <publishTime>08/10/2021 12:10:22</publishTime>
+    </File>
+    <File Include="assets/lanchefake.jpg">
+      <publishTime>08/10/2021 12:10:22</publishTime>
+    </File>
+    <File Include="assets/pizza-3010062_640.jpg">
+      <publishTime>08/10/2021 12:10:22</publishTime>
+    </File>
+    <File Include="assets/WhatsApp Image 2021-08-05 at 17.13.34.jpeg">
+      <publishTime>08/10/2021 12:10:22</publishTime>
+    </File>
+    <File Include="assets/WhatsApp Image 2021-08-05 at 17.13.52.jpeg">
+      <publishTime>08/10/2021 12:10:22</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>08/10/2021 15:45:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 17:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/10/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/09/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/09/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/TI.ACESSO.DADOS.dll">
+      <publishTime>10/26/2021 09:53:37</publishTime>
+    </File>
+    <File Include="bin/TI.ACESSO.DADOS.pdb">
+      <publishTime>10/26/2021 09:53:37</publishTime>
+    </File>
+    <File Include="bin/TI.IDISQUE.UI.dll">
+      <publishTime>10/26/2021 09:53:41</publishTime>
+    </File>
+    <File Include="bin/TI.IDISQUE.UI.dll.config">
+      <publishTime>10/26/2021 09:22:55</publishTime>
+    </File>
+    <File Include="bin/TI.IDISQUE.UI.pdb">
+      <publishTime>10/26/2021 09:53:41</publishTime>
+    </File>
+    <File Include="bin/TI.OBJETO.TRANSFERENCIA.dll">
+      <publishTime>10/26/2021 09:53:37</publishTime>
+    </File>
+    <File Include="bin/TI.OBJETO.TRANSFERENCIA.pdb">
+      <publishTime>10/26/2021 09:53:37</publishTime>
+    </File>
+    <File Include="bin/TI.REGRA.NEGOCIOS.dll">
+      <publishTime>10/26/2021 09:53:37</publishTime>
+    </File>
+    <File Include="bin/TI.REGRA.NEGOCIOS.pdb">
+      <publishTime>10/26/2021 09:53:37</publishTime>
+    </File>
+    <File Include="colaborador.aspx">
+      <publishTime>10/22/2021 15:31:03</publishTime>
+    </File>
+    <File Include="csss/bootstrap.min.css">
+      <publishTime>06/27/2016 07:04:10</publishTime>
+    </File>
+    <File Include="csss/css-mc/bootstrap.min.css">
+      <publishTime>06/27/2016 07:04:10</publishTime>
+    </File>
+    <File Include="csss/css-mc/bootstraptable.min.css">
+      <publishTime>06/27/2016 07:04:10</publishTime>
+    </File>
+    <File Include="csss/css-mc/dataTables.bootstrap.min.css">
+      <publishTime>06/27/2016 07:04:10</publishTime>
+    </File>
+    <File Include="csss/css-mc/jquery.growl.css">
+      <publishTime>06/27/2016 07:04:10</publishTime>
+    </File>
+    <File Include="csss/css-mc/style.css">
+      <publishTime>10/06/2021 16:35:34</publishTime>
+    </File>
+    <File Include="csss/csss-login/log.css">
+      <publishTime>10/08/2021 11:54:26</publishTime>
+    </File>
+    <File Include="csss/dataTables.bootstrap.min.css">
+      <publishTime>06/27/2016 07:04:10</publishTime>
+    </File>
+    <File Include="csss/forma-pagamento.css">
+      <publishTime>10/07/2021 12:50:08</publishTime>
+    </File>
+    <File Include="csss/index-colaborador/img/index/app.png">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="csss/index-colaborador/img/index/app1.jpg">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="csss/index-colaborador/img/index/app2.jpg">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="csss/index-colaborador/img/index/app3.jpg">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="csss/index-colaborador/img/logo/1/logo.jpg">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="csss/index-colaborador/img/logo/2/lu-lanhes.png">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="csss/index-colaborador/img/logo/3/nautico.jpg">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="csss/index-colaborador/img/logo/4/cmbuffet.jpg">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="csss/index-colaborador/img/logo/5/degraus.jpg">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="csss/index-colaborador/img/logo/6/preco-unico.jpg">
+      <publishTime>07/05/2021 16:32:12</publishTime>
+    </File>
+    <File Include="csss/index-colaborador/index.css">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="csss/index-colaborador/scripts.js">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="csss/index-colaborador/styles.css">
+      <publishTime>07/14/2021 14:41:20</publishTime>
+    </File>
+    <File Include="csss/jquery.growl.css">
+      <publishTime>06/27/2016 07:04:10</publishTime>
+    </File>
+    <File Include="csss/landing.css">
+      <publishTime>08/13/2021 06:01:38</publishTime>
+    </File>
+    <File Include="csss/main.css">
+      <publishTime>10/25/2021 16:31:38</publishTime>
+    </File>
+    <File Include="csss/meu-carrinho.css">
+      <publishTime>10/06/2021 17:12:00</publishTime>
+    </File>
+    <File Include="csss/modal-login.css">
+      <publishTime>08/13/2021 06:01:38</publishTime>
+    </File>
+    <File Include="csss/modal-maps.css">
+      <publishTime>08/13/2021 06:01:38</publishTime>
+    </File>
+    <File Include="csss/modal-products.css">
+      <publishTime>10/22/2021 09:18:30</publishTime>
+    </File>
+    <File Include="csss/pagina-nao-encontrado.css">
+      <publishTime>10/22/2021 14:49:09</publishTime>
+    </File>
+    <File Include="csss/style.css">
+      <publishTime>08/12/2021 15:49:34</publishTime>
+    </File>
+    <File Include="empresas.aspx">
+      <publishTime>10/22/2021 16:04:57</publishTime>
+    </File>
+    <File Include="error.aspx">
+      <publishTime>10/22/2021 15:26:25</publishTime>
+    </File>
+    <File Include="img/departamentos/1/1/pastel-aliche.jpg">
+      <publishTime>08/10/2021 18:10:24</publishTime>
+    </File>
+    <File Include="img/departamentos/1/1/pastel-carnseca.jpg">
+      <publishTime>08/11/2021 12:42:58</publishTime>
+    </File>
+    <File Include="img/departamentos/1/1/pastel-de-carne.jpg">
+      <publishTime>08/11/2021 12:40:42</publishTime>
+    </File>
+    <File Include="img/departamentos/1/10/porcao-calabresa.jpg">
+      <publishTime>08/12/2021 17:14:24</publishTime>
+    </File>
+    <File Include="img/departamentos/1/10/porcao-mandioca.jpg">
+      <publishTime>08/12/2021 17:14:24</publishTime>
+    </File>
+    <File Include="img/departamentos/1/2/pizza.jpeg">
+      <publishTime>08/10/2021 18:11:24</publishTime>
+    </File>
+    <File Include="img/departamentos/1/2/pizza2.jpg">
+      <publishTime>08/11/2021 17:47:38</publishTime>
+    </File>
+    <File Include="img/departamentos/1/3/k-kids.jpg">
+      <publishTime>08/10/2021 18:12:04</publishTime>
+    </File>
+    <File Include="img/departamentos/1/4/beiruti.jpg">
+      <publishTime>08/11/2021 12:22:24</publishTime>
+    </File>
+    <File Include="img/departamentos/1/5/brahma.jpg">
+      <publishTime>08/12/2021 16:14:08</publishTime>
+    </File>
+    <File Include="img/departamentos/1/5/skol.jpg">
+      <publishTime>08/11/2021 14:49:32</publishTime>
+    </File>
+    <File Include="img/departamentos/1/6/bebidas-sucos.jpg">
+      <publishTime>08/11/2021 14:50:34</publishTime>
+    </File>
+    <File Include="img/departamentos/1/6/suco-dels.jpg">
+      <publishTime>08/12/2021 16:50:52</publishTime>
+    </File>
+    <File Include="img/departamentos/1/6/sucos-del.jpg">
+      <publishTime>08/12/2021 16:18:10</publishTime>
+    </File>
+    <File Include="img/departamentos/1/7/agua-mineral-cg.jpg">
+      <publishTime>08/11/2021 14:57:42</publishTime>
+    </File>
+    <File Include="img/departamentos/1/7/agua-mineral.jpg">
+      <publishTime>08/11/2021 14:56:00</publishTime>
+    </File>
+    <File Include="img/departamentos/1/8/bebidas.jpg">
+      <publishTime>08/10/2021 18:25:48</publishTime>
+    </File>
+    <File Include="img/departamentos/1/8/coca-lata.jpg">
+      <publishTime>08/12/2021 15:25:50</publishTime>
+    </File>
+    <File Include="img/departamentos/1/8/coca-litro.jpg">
+      <publishTime>08/12/2021 15:27:08</publishTime>
+    </File>
+    <File Include="img/departamentos/1/8/fanta-uva.jpg">
+      <publishTime>08/12/2021 15:24:40</publishTime>
+    </File>
+    <File Include="img/departamentos/1/8/pastel-brigadeiro.jpg">
+      <publishTime>08/11/2021 14:59:14</publishTime>
+    </File>
+    <File Include="img/departamentos/1/9/pasteldebananacomdocedeleitejpg.jpg">
+      <publishTime>08/12/2021 13:56:00</publishTime>
+    </File>
+    <File Include="img/icons/favicon.ico">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="img/login/images.png">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="img/logo/1/pastelaria-alameda.jpg">
+      <publishTime>10/20/2021 14:35:32</publishTime>
+    </File>
+    <File Include="img/logo/1/tiautocom.jpg">
+      <publishTime>10/22/2021 17:26:13</publishTime>
+    </File>
+    <File Include="img/logo/2/pastelaria-alameda.jpg">
+      <publishTime>10/20/2021 14:35:32</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>10/26/2021 09:40:53</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>10/22/2021 18:04:25</publishTime>
+    </File>
+    <File Include="index2.aspx">
+      <publishTime>10/22/2021 15:34:19</publishTime>
+    </File>
+    <File Include="index2.html">
+      <publishTime>10/04/2021 15:24:50</publishTime>
+    </File>
+    <File Include="landing.css">
+      <publishTime>08/10/2021 12:10:22</publishTime>
+    </File>
+    <File Include="landing.js">
+      <publishTime>08/10/2021 12:10:22</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>10/08/2021 17:01:44</publishTime>
+    </File>
+    <File Include="meu-carrinho.aspx">
+      <publishTime>10/26/2021 09:29:47</publishTime>
+    </File>
+    <File Include="modal-login.css">
+      <publishTime>08/10/2021 12:10:22</publishTime>
+    </File>
+    <File Include="modal-login.js">
+      <publishTime>08/10/2021 12:10:22</publishTime>
+    </File>
+    <File Include="nossos-clientes.aspx">
+      <publishTime>10/22/2021 15:28:54</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/10/2021 16:41:58</publishTime>
+    </File>
+    <File Include="pagina-nao-encontrado.aspx">
+      <publishTime>10/22/2021 16:44:25</publishTime>
+    </File>
+    <File Include="pastelaria-alameda.html">
+      <publishTime>10/25/2021 15:07:17</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>10/26/2021 09:53:53</publishTime>
+    </File>
+    <File Include="rumos-tec.aspx">
+      <publishTime>08/11/2021 11:44:00</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.js">
+      <publishTime>08/10/2021 15:45:44</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>08/10/2021 15:45:44</publishTime>
+    </File>
+    <File Include="scripts/incrementing.js">
+      <publishTime>08/13/2021 12:22:58</publishTime>
+    </File>
+    <File Include="scripts/index.js">
+      <publishTime>10/25/2021 17:45:41</publishTime>
+    </File>
+    <File Include="scripts/landing.js">
+      <publishTime>08/13/2021 06:01:38</publishTime>
+    </File>
+    <File Include="scripts/login.js">
+      <publishTime>10/25/2021 17:39:26</publishTime>
+    </File>
+    <File Include="scripts/meu-carrinho.js">
+      <publishTime>10/26/2021 09:25:00</publishTime>
+    </File>
+    <File Include="scripts/modal-login.js">
+      <publishTime>08/13/2021 06:01:38</publishTime>
+    </File>
+    <File Include="scripts/modal-maps.js">
+      <publishTime>08/13/2021 06:01:38</publishTime>
+    </File>
+    <File Include="scripts/modal-products.js">
+      <publishTime>10/07/2021 09:25:42</publishTime>
+    </File>
+    <File Include="scripts/pagina-nao-encontrado.js">
+      <publishTime>10/22/2021 16:45:18</publishTime>
+    </File>
+    <File Include="scripts/vendas.js">
+      <publishTime>10/25/2021 17:59:26</publishTime>
+    </File>
+    <File Include="style.css">
+      <publishTime>08/12/2021 15:49:42</publishTime>
+    </File>
+    <File Include="vendor/animate/animate.css">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-grid.css">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-grid.css.map">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-grid.min.css.map">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-reboot.css">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-reboot.css.map">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-reboot.min.css.map">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap.css">
+      <publishTime>10/15/2021 11:24:44</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap.css.map">
+      <publishTime>10/15/2021 11:24:48</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap.min.css.map">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/js/bootstrap.js">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/js/popper.js">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/js/popper.min.js">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/js/tooltip.js">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/css-hamburgers/hamburgers.css">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/css-hamburgers/hamburgers.min.css">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/jquery/jquery-3.2.1.min.js">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/select2/select2.css">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/select2/select2.js">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/select2/select2.min.css">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/select2/select2.min.js">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="vendor/tilt/tilt.jquery.min.js">
+      <publishTime>06/29/2021 05:15:20</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/26/2021 09:53:52</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

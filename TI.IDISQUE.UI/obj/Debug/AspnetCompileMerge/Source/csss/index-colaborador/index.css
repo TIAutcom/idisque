@@ -1,0 +1,8 @@
+﻿.bg-light {
+    background-color: red;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    font: 100;
+}

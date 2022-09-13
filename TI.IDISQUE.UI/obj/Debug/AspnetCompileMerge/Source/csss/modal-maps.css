@@ -1,0 +1,70 @@
+/* ====== Modal ====== */
+.modal-maps {
+  z-index: 9999999999;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(0, 0, 0, 0.7);
+
+  position: fixed;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+}
+.modal-maps.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.maps-wrap {
+  width: 100%;
+  margin: auto;
+  max-width: 525px;
+  min-height: 500px;
+  position: relative;
+  background: url(https://motoboy.app/wp-content/uploads/2021/04/motoboy_app-1.gif)
+    no-repeat center;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 40px;
+}
+
+.label-text {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  border-color: #1161ee;
+  flex-direction: column;
+}
+
+.text-close {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.up-maps {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: all 0.4s linear;
+}
+
+.login-form .group .text-size {
+  font-size: 17px;
+}
+
+.opacity-input {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  background: rgb(0 0 0 / 28%);
+  width: 100%;
+}
